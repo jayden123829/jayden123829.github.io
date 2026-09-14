@@ -1,4 +1,4 @@
-# Welcome to My Portfolio Hello! My name is [Your Alias or Initials].
+# Welcome to My Portfolio Hello! My name is JD.
 
 ## Projects
 
@@ -8,8 +8,8 @@
 
 ## About Me
 
-Click here to learn more → [About Me](about.mdLinks to an external site.)
+Click here to learn more → [About Me](about.md)
 
 ## Notebook
 
-Click here to go to my notebook → [Notebook](notebook.mdLinks to an external site.)
+Click here to go to my notebook → [Notebook](notebook.md)
