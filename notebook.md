@@ -1,57 +1,17 @@
 ## Table of Contents
+- [Blocks](#blocks)
+- [Concepts](#concepts)
+- [Vocabulary](#vocabulary)
+- ## Blocks
 
+## Concepts
+
+## Vocabulary
 - [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
+- 
   - [Headings](#headings)
+  - 
   - [Text Formatting](#text-formatting)
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
