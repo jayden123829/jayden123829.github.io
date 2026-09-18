@@ -2,16 +2,74 @@
 - [Blocks](#blocks)
 - [Concepts](#concepts)
 - [Vocabulary](#vocabulary)
+- [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
+  - [Headings](#headings)
+  - [Text Formatting](#text-formatting)
+
+
+
+
+
+
+
+
+
 - ## Blocks
+hat block Name: Hat BlockShape/Type: Hat / Event BlockWhat It Does: It starts a script or stack of blocks when a specific event happens, such as when the program starts or a controller button is pressed. It has a rounded top so no other blocks can be placed above it, meaning it always belongs at the very top of a stack.Example: when STARTED
+
+Name: Stack BlockShape/Type: Rectangle / Command BlockWhat It Does: It carries out a specific action or command. It features a notch at the top and a bump at the bottom, allowing it to connect sequentially to other commands both above and below it.Example: drive [forward]
+
+Name: C-BlockShape/Type: C-Shape / Control BlockWhat It Does: The "C" shape signifies that it controls the flow of execution by looping or checking conditions. Command blocks are placed inside its open mouth to run repeatedly or only under certain conditions.Example: if < > then or repeat (10)
+
+Name: Reporter BlockShape/Type: Oval / Value BlockWhat It Does: It reports or holds a value, such as a number, text string, or sensor reading. It cannot stand alone as a command; instead, it must be inserted into oval-shaped slots within other blocks.Example: Brain.Timer.time or Distance.objectDistance
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Concepts
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Vocabulary
-- [Notebook Style Guide](#markdown-style-guide-for-coding-notebooks)
-- 
-  - [Headings](#headings)
-  - 
-  - [Text Formatting](#text-formatting)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
