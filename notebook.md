@@ -15,23 +15,23 @@
 
 
 - ## Blocks
-hat block Name: Hat BlockShape/Type: Hat / Event BlockWhat It Does: It starts a script or stack of blocks when a specific event happens, such as when the program starts or a controller button is pressed. It has a rounded top so no other blocks can be placed above it, meaning it always belongs at the very top of a stack.Example: when STARTED
+hat block is a block with a curved top and a single notch at the bottom that starts a script or program when a specific event occurs, acting as a listener for triggers and always sitting at the very top of a stack of blocks, such as the when green flag clicked block
 
-Name: Stack BlockShape/Type: Rectangle / Command BlockWhat It Does: It carries out a specific action or command. It features a notch at the top and a bump at the bottom, allowing it to connect sequentially to other commands both above and below it.Example: drive [forward]
+ Stack Blocks/command block is a rectangular block with a notch on top and a bump on the bottom that performs a specific action or command and connects to other commands by snapping in sequentially above or below them, such as the move 10 steps block.
+ 
+ C-Block is a control block shaped like the letter "C" with an open mouth in the middle that loops or conditionally runs code, meaning it physically wraps around other blocks placed inside its mouth to dictate how they execute, such as the repeat 10 block.
+ 
+Reporter / Oval Block is an oval, rounded rectangle block that holds and outputs a value like a number or a text string, meaning it cannot stand alone and must be dropped directly into the matching round input slots of other blocks, such as the x position block.
 
-Name: C-BlockShape/Type: C-Shape / Control BlockWhat It Does: The "C" shape signifies that it controls the flow of execution by looping or checking conditions. Command blocks are placed inside its open mouth to run repeatedly or only under certain conditions.Example: if < > then or repeat (10)
+Boolean / Hexagonal Block is a six-sided block with pointed ends that reports a true or false condition, using its unique hexagonal shape to ensure it can only be dropped into matching pointed condition slots so programmers cannot accidentally input regular text or numbers, such as the touching mouse-pointer? block.
 
-Name: Reporter BlockShape/Type: Oval / Value BlockWhat It Does: It reports or holds a value, such as a number, text string, or sensor reading. It cannot stand alone as a command; instead, it must be inserted into oval-shaped slots within other blocks.Example: Brain.Timer.time or Distance.objectDistance
+Repeat Block is a C-shape loop block that runs a specific set of instructions a set number of times, where the target action blocks are placed inside its mouth and a number value is typed into its input window to dictate the loop count, such as a repeat 4 block used to draw the four sides of a square.
 
+Wait Until Block is a rectangular stack block with a hexagonal input slot that pauses the script execution completely until a specific requirement is met, requiring a Boolean condition to tell the program when it is allowed to proceed, such as the wait until <key space pressed?> block.
 
+If Then Block is a C-shape block with a hexagonal input slot that checks a specific condition before running code, meaning that if the hexagonal condition evaluates to TRUE, the program runs the blocks tucked inside its mouth, but if it evaluates to FALSE, it skips them entirely, such as the if <touching color red?> then [say "Ouch!"] block.
 
-
-
-
-
-
-
-
+Forever Block is a C-shape block with a flat bottom and no bottom bump that loops the code inside it endlessly for the entire duration of the program, which programmers use to constantly check for inputs or keep background gameplay elements running, such as a forever [next costume, wait 0.1 seconds] block.
 
 
 
